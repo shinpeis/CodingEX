@@ -55,7 +55,10 @@ header{
     text-align: center;
   }
   header{
-    height: 220px;
+    height: 200px;
+  }
+  .header-logo{
+    margin-top:15px;
   }
   .header-info .tel{
     text-align: center;
@@ -128,11 +131,15 @@ header{
 
 @media(max-width:576px){
   .key-visual{
-    height: 700px;
+    height: 600px;
     background-image: url(../img/mainimg.png);
     background-size: cover;
     background-position:70% 50%;
   }
+  .key-visual-content{
+    margin-left: 10px;
+    padding: 25px 0;
+  }  
   .key-visual-content li{
     margin-right: 10px;
     padding: 15px;
