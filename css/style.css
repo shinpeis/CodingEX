@@ -154,7 +154,11 @@ header{
 
 .wrapper{
   display: flex;
-  margin:162px 82px auto;
+  justify-content: center;
+
+  width:100%;
+  margin:162px auto 82px;
+  text-align: center;
   box-sizing: border-box;
 }
 
@@ -177,6 +181,7 @@ header{
   font-size: 1.6rem;
   line-height: 2.375;
   margin-top: 40px;
+  text-align: left;
   letter-spacing: 0px;
 
   }
@@ -215,6 +220,9 @@ header{
   }
   .thirtyyears br{
     display: none;
+  }
+  .thirtyyears .catchcopy {
+    font-size: 2.0rem;
   }
 }  
 
@@ -310,7 +318,7 @@ header{
     width: 80%;
     margin: 0 auto;
     max-height: 480px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
   }
   .treatment-card p{
     margin-bottom: 0px;
@@ -328,6 +336,11 @@ header{
   .treatment-card p{
     font-size: 1.4rem;
     line-height: 1.5;
+  }
+  .contents-box p{
+    padding-left: 20px;
+    padding-right:20px;
+    line-height: 1.8;
   }
 }
 
@@ -351,6 +364,7 @@ header{
 .infobox{
   background: #FFFFFF;
   width:87.4%;
+  max-width: 1215px;
   margin: 0 auto;
   height: 390px;
   border-radius: 30px;
@@ -422,9 +436,20 @@ header{
     margin-right: 10px;
     margin-left: 10px;
   }
+}
 
+@media(max-width:768px){
+  .infobox .row{
+    margin-right: 35px;
+    margin-left:35px;
+  }
+  .row p{
+    line-height: 1.5;
+  }
 
 }
+
+
 
 .infobox a{
   text-decoration: none;
@@ -449,6 +474,7 @@ header{
 .wrapper03{
   display:flex;
   width: 90%;
+  max-width: 1215px;
   margin: 0 auto;
 }
 
