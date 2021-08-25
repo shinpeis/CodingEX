@@ -176,6 +176,10 @@ header{
   background: linear-gradient(transparent 75%, #99E5A5 0%);
 }
 
+.thirtyyears h1{
+  text-align: left;
+}
+
 .thirtyyears p{
   width: 415px;
   font-size: 1.6rem;
@@ -205,20 +209,26 @@ header{
     margin:0 auto;
     padding:25px 25px 50px 25px
   }
-
 }
 
 @media(max-width:768px){
   .wrapper{
     margin:100px auto 40px;
   }
+  .thirtyyears h1{
+    text-align: left;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;    
+  }
   .thirtyyears p{
     width: 80%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto;    
   }
   .thirtyyears{
-    padding:20px 15px 40px 15px
+    padding:30px 40px 40px 40px;
+    width: auto;
   }
   .thirtyyears br{
     display: none;
